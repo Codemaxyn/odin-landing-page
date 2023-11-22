@@ -38,3 +38,33 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+.hero {
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 48%;
+}
+
+.hero-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-right {
+    display: flex;
+    width: 48%;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
