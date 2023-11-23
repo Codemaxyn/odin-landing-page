@@ -69,7 +69,7 @@ a {
     align-items: center;
 }
 
-/* Start of content */
+/* Content section */
 
 .content {
     display: flex;
@@ -109,4 +109,28 @@ a {
 
 .info {
     text-align: center;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column ;
+    padding: 100px 20%;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 20px;
+    align-self: flex-end;
 }
