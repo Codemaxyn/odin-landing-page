@@ -116,8 +116,7 @@ a {
 }
 
 .photo {
-    background-color: grey;
-    border: 5px inset #3882f6;
+    border: 5px solid #3882f6;
     height: 180px;
     width: 180px;
     border-radius: 10%;
@@ -149,4 +148,50 @@ a {
     font-weight: 800;
     font-size: 20px;
     align-self: flex-end;
+}
+
+/* Banner section */
+
+.bottom {
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+}
+
+.bottom-banner {
+    background-color: #3882f6;
+    width: 80%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.banner-header {
+    font-size: 20px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.banner-text {
+    color: #f9faf8;
+}
+
+.banner-button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-weight: 800;
+    margin-top: 16px;
+    border-radius: 6px;
+    font-size: 14px;
 }
