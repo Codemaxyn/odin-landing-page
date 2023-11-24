@@ -48,7 +48,10 @@ a {
 }
 
 .hero-left {
+    display: flex;
+    flex-direction: column;
     width: 48%;
+    justify-content: center;
 }
 
 .hero-header {
@@ -83,6 +86,8 @@ a {
     background-color: grey;
     justify-content: center;
     align-items: center;
+    max-width: 420px;
+    max-height: 220px;
 }
 
 /* Content section */
